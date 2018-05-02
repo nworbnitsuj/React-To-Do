@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react'
 
 class TodosContainer extends Component {
-  render() {
+  render(){
     return (
-      <h1>
-        This is my To-Dos Continer
-      </h1>
-    );
+      <div className='todosContainer'>
+        <h2>This is the todos container</h2>
+      </div>
+    )
   }
 }
 
-export default TodosContainer;
+export default TodosContainer
