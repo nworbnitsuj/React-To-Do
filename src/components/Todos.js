@@ -8,6 +8,7 @@ class Todos extends Component {
         <Todo
           key={todo._id}
           todo={todo}/>
+          onDeleteTodo={this.props.onDeleteTodo}/>
       )
     })
     return(
